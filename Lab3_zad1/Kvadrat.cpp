@@ -22,6 +22,7 @@ Kvadrat::~Kvadrat()
 void Kvadrat::prikazi()
 {
 	std::cout << "Kvadrat stranice: " << this->a << std::endl;
+	/*Figura::prikazi();*/
 	std::cout << " Povrsina: " << povrsina() << std::endl;
 	
 }

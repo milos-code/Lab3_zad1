@@ -23,7 +23,7 @@ void Figura::prikazi()
 	std::cout << std::endl;*/
 }
 
-void Figura::printToFile(std::ostream& outputStream)
+void Figura::printToFile(std::ofstream& outputStream)
 {
 	outputStream << brojStranica << std::endl;
 }

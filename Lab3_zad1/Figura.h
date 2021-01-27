@@ -15,6 +15,6 @@ public:
 	virtual double povrsina() = 0;
 	virtual void prikazi();
 
-	virtual void printToFile(std::ostream& outputStream);
+	virtual void printToFile(std::ofstream& outputStream);
 };
 
